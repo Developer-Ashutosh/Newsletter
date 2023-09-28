@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Newsletter | Developer Ashutosh</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main>
+
+    <div class="left">
+
+      <h1>Stay updated!</h1>
+      <p>Join 60,000+ product managers receiving monthly updates on:</p>
+      <div class="content">
+        <p><img src="images/icon-list.svg">Product discovery and building what matters</p>
+        <p><img src="images/icon-list.svg">Measuring to ensure updates are a success</p>
+        <p><img src="images/icon-list.svg">And much more!</p>
+      </div>
+
+      <form action="">
+        <div class="header">
+          <h2>Email address</h2>
+          <span id="invalid"></span>
+        </div>
+        <input type="email" id="email" placeholder="email@company.com" required autocomplete="email">
+        <input class="submit_btn" type="submit" value="Subscribe to monthly newsletter" onclick="validateInput()">
+      </form>
+
+    </div>
+
+    <div class="right">
+      <img src="images/illustration-sign-up-desktop.svg">
+    </div>
+
+  </main>
+
+  <div class="success">
+    <img src="images/icon-success.svg">
+    <h1>Thanks for subscribing!</h1>
+
+    <p>A confirmation email has been sent to <span>ash@loremcompany.com</span>. Please open it and click the button
+      inside to confirm your subscription.</p>
+
+    <button>Dismiss message</button>
+  </div>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">@ Developer Ashutosh</a>.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
